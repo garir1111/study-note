@@ -13,7 +13,3 @@ Technical accuracy is not guaranteed.
 個人の勉強の記録です．
 
 It's for my personal study records.
-
-## 目次
-
-$lsx(./note)
