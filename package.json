@@ -1,0 +1,16 @@
+{
+  "name": "study-note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yorsh",
+  "license": "MIT",
+  "devDependencies": {
+    "lint-staged": "^15.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  }
+}
