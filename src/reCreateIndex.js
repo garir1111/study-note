@@ -17,7 +17,14 @@ function listMdFilesInDirectory(directoryPath) {
 
 async function writeMdFileList(mdFiles, mdFilePath) {
   try {
-    const fileList = mdFiles.join("\n"); // ファイル名のリストを改行で区切って1つの文字列に結合
+    const fileList = mdFiles
+      .map((file) => {
+        return `[${file}](${path.join(
+          "https://garir1111.github.io/study-note/md/",
+          file
+        )})`; // ファイル名を埋め込む
+      })
+      .join("\n\n");
 
     await fs.promises.writeFile(mdFilePath, fileList, "utf8");
     console.log("File list written to", mdFilePath);
