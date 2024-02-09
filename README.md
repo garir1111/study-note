@@ -16,4 +16,4 @@ It's for my personal study records.
 
 ## インデックス
 
-[全ての記事](https:/garir1111.github.io/study-note/md/docList)
+[全ての記事](https:/garir1111.github.io/study-note/md/docList) はリンクをクリック
