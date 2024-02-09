@@ -42,7 +42,7 @@ async function writeMdFileList(mdFiles, mdFilePath) {
 
 async function main() {
   const directoryPath = "../md";
-  const mdFilePath = "../md/_docList.md"; // ファイル名のリストを保存するmdファイルのパス
+  const mdFilePath = "../md/docList.md"; // ファイル名のリストを保存するmdファイルのパス
 
   try {
     const mdFiles = await listMdFilesInDirectory(directoryPath);
