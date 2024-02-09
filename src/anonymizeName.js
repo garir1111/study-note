@@ -1,7 +1,8 @@
+require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
 
-const directoryPath = "../md";
+const directoryPath = path.join("..", "md");
 const yourNameStr = process.env.YOURNAME;
 const anonymizedYourNameStr = "yourName@";
 
