@@ -9,7 +9,14 @@ function listMdFilesInDirectory(directoryPath) {
         return;
       }
 
-      const mdFiles = files.filter((file) => path.extname(file) === ".md");
+      const mdFiles = files
+        .filter((file) => {
+          return path.extname(file).toLowerCase() === ".md";
+        })
+        .map((file) => {
+          return path.basename(file, path.extname(file));
+        });
+
       resolve(mdFiles);
     });
   });
