@@ -1,17 +1,18 @@
 {
   "name": "study-note",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pre": "cd src && node anonymizeName.js && node reCreateIndex.js"
+    "pre": "cd src && node anonymizeName.js"
   },
+  "pre-commit": [
+    "pre"
+  ],
   "author": "yorsh",
   "license": "MIT",
-  "devDependencies": {
-    "lint-staged": "^15.2.2"
-  },
   "dependencies": {
     "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
   }
 }

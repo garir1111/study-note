@@ -13,7 +13,3 @@ Technical accuracy is not guaranteed.
 個人の勉強の記録です．
 
 It's for my personal study records.
-
-## インデックス
-
-[全ての記事](https:/garir1111.github.io/study-note/md/docList) はリンクをクリック
