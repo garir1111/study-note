@@ -50,7 +50,7 @@ function replaceStringInFiles(
       });
     });
   });
-  console.log("Done!");
 }
 
 replaceStringInFiles(directoryPath, yourNameStr, anonymizedYourNameStr);
+console.log("Done!");
