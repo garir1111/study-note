@@ -44,13 +44,13 @@ function replaceStringInFiles(
                 console.error("Error writing file:", err);
                 return;
               }
-              console.log(`Updated ${filePath}`);
             });
           });
         }
       });
     });
   });
+  console.log("Done!");
 }
 
 replaceStringInFiles(directoryPath, yourNameStr, anonymizedYourNameStr);
