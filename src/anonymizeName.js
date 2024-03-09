@@ -4,7 +4,7 @@ const path = require("path");
 
 const directoryPath = path.join("..", "md");
 const yourNameStr = process.env.YOURNAME;
-const anonymizedYourNameStr = "yourName@";
+const anonymizedYourNameStr = "yourName";
 
 function replaceStringInFiles(
   directoryPath,
